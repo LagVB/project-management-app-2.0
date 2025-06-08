@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+h3 {
+    color: rgb(43, 42, 42);
+    font-weight: 600;
+    font-size: large;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: calc(1.25/0.875);
+}
