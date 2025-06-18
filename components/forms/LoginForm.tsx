@@ -33,17 +33,18 @@ export default function LoginForm() {
         }
     }
 
-    return <form onSubmit={handleSubmit}>
-        <label>Email:</label>
-        <input name="email" type="email" className="border rounded p-2 mt-2 mb-4 w-full" placeholder="Enter your email" required />
-        <label>Password: </label>
-        <input name="password" type="password" className="border rounded p-2 mt-2 mb-4 w-full" placeholder="Enter your password" required />
-        <button type="submit" className="bg-blue-500 text-white rounded p-2 w-full hover:bg-blue-600">Login</button>
-        <div className="text-center mt-4">
-            <a href="/forgot-password" className="text-blue-500 hover:underline">Forgot Password?</a>
-        </div>
-        <div className="text-center mt-2">
-            <a href="/register" className="text-blue-500 hover:underline">Create an Account</a>
-        </div>
-    </form>
+    return <>
+        <form onSubmit={handleSubmit} className="text-main-gray">
+            <label>Email Address</label>
+            <input name="email" type="email" className="border rounded p-2 mt-2 mb-4 w-full" placeholder="Enter your email" required />
+            <label>Password: </label>
+            <input name="password" type="password" className="border rounded p-2 mt-2 mb-4 w-full" placeholder="Enter your password" required />
+            <div className="flex justify-between">
+                <span><input type="checkbox" /> Remember me</span>
+                <a href="/register" className="text-main-blue">Forgot Password?</a>
+            </div>
+            <button type="submit" className="bg-main-blue text-white rounded p-2 w-full">Login</button>
+
+        </form>
+    </>
 }

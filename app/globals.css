@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+
+    --color-main-blue: #0000cc;
+    --color-main-gray: rgb(75 85 99);
+}
+
 * {
     font-family: sans-serif;
 }

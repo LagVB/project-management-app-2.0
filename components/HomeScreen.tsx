@@ -12,20 +12,20 @@ export default function HomeScreen() {
                     <h1>TaskFlow</h1>
                 </div>
                 <div className="flex gap-10 items-center">
-                    <Link href={"/login"} className="text-[#374151] cursor-pointer hover:text-[#0000cc]">Login</Link>
-                    <Link href={"/register"} className="bg-[#0000cc] cursor-pointer text-white font-semibold px-7 py-2 rounded-md">Register</Link>
+                    <Link href={"/login"} className="text-[#374151] cursor-pointer hover:text-main-blue">Login</Link>
+                    <Link href={"/register"} className="bg-main-blue cursor-pointer text-white font-semibold px-7 py-2 rounded-md">Register</Link>
                 </div>
             </nav>
             <div className="h-full bg-linear-to-r from-[#eff6ff] to-[#e0e7ff] grid grid-cols-[40%_40%] px-10 py-20 justify-center gap-30">
                 <div className="self-center flex flex-col gap-4">
                     <div>
                         <h2 className="text-black">TaskFlow Project</h2>
-                        <h2 className="text-[#0000cc]">Overview</h2>
+                        <h2 className="text-main-blue">Overview</h2>
                     </div>
                     <p>A comprehensive project management solution designed to showcase modern web development skills and create value for teams worldwide.</p>
                     <div className="flex gap-4">
-                        <button className="bg-[#0000cc] cursor-pointer text-white font-semibold px-7 py-2 rounded-md rounded-md">Explore Project</button>
-                        <button className="border border-[#0000cc] cursor-pointer text-[#0000cc] px-7 rounded-md">Contact me</button>
+                        <button className="bg-main-blue cursor-pointer text-white font-semibold px-7 py-2 rounded-md">Explore Project</button>
+                        <button className="border border-main-blue cursor-pointer text-main-blue px-7 rounded-md">Contact me</button>
                     </div>
                 </div>
                 <div className="bg-white">
@@ -84,26 +84,26 @@ export default function HomeScreen() {
                     </div>
                 </div>
             </div>
-            <div className="h-full bg-[#0000cc] gap-20 text-white flex flex-col items-center px-10 py-20">
+            <div className="h-full bg-main-blue gap-20 text-white flex flex-col items-center px-10 py-20">
                 <div className="flex flex-col items-center">
                     <h2>Let's Connect</h2>
                     <p>Interested in discussing this project or exploring collaboration opportunities? I'd love to hear from you.</p>
                 </div>
                 <div className="grid grid-cols-3 gap-10">
-                    <div className="flex flex-col items-center bg-[#ffffff1a] px-5 py-10 gap-2 rounded-md">
+                    <div className="flex flex-col items-center bg-main-gray px-5 py-10 gap-2 rounded-md">
                         <h4 className="font-bold">Email</h4>
                         <p className="text-sm">luizaugusto1299@gmail.com</p>
                     </div>
-                    <div className="flex flex-col items-center bg-[#ffffff1a] px-5 py-10 gap-2 rounded-md">
+                    <div className="flex flex-col items-center bg-main-gray px-5 py-10 gap-2 rounded-md">
                         <h4 className="font-bold">LinkedIn</h4>
                         <p>Conect with me</p>
                     </div>
-                    <div className="flex flex-col items-center bg-[#ffffff1a] px-5 py-10 gap-2 rounded-md">
+                    <div className="flex flex-col items-center bg-main-gray px-5 py-10 gap-2 rounded-md">
                         <h4 className="font-bold">GitHub</h4>
                         <p>View source code</p>
                     </div>
                 </div>
-                <button className="bg-white text-[#0000cc] px-6 py-3 rounded-md font-bold">Get in Touch</button>
+                <button className="bg-white text-main-blue px-6 py-3 rounded-md font-bold">Get in Touch</button>
             </div>
             <div className="bg-black py-10 flex justify-between px-25 items-center">
                 <div className="flex gap-2 items-center">
